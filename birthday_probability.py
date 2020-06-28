@@ -41,27 +41,34 @@ the exact same birthday
     return prob
 
 
+def one_same_birthdays(number_of_people):
+    days_in_year = 365
+    prob = 1 - ((364 / days_in_year)**number_of_people)
+    return prob
+
 def no_same_birthdays(number_of_people):
     days_in_year = 365
-    prob = factorial(days_in_year, number_of_people) /\
-           days_in_year**number_of_people
+    prob = factorial(days_in_year, number_of_people) / \
+           days_in_year ** number_of_people
     return prob
 
 
 def two_same_birthdays(number_of_people):
     days_in_year = 365
-    prob = (1 - factorial(days_in_year,number_of_people) / (days_in_year ** number_of_people))
+    prob = (1 - factorial(days_in_year, number_of_people) / (days_in_year ** number_of_people))
     return prob
 
 
 def main():
     num_people = number_of_people()
     all_same = all_same_birthdays(num_people)
+    one_same = one_same_birthdays(num_people)
     no_same = no_same_birthdays(num_people)
     two_same = two_same_birthdays(num_people)
 
     print("\nThe probability you all share the same birthday is {:.10%}".format(all_same))
     print("\nThe probability that none of you share the same birthday is {:.10%}".format(no_same))
+    print("\nThe probability that you share the same birthday with someone is {:.10%}".format(one_same))
     print("\nThe probability at least two of you in the group will share a same birthday is  {:.10%}".format(
         two_same))
 
