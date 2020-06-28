@@ -11,6 +11,7 @@ def number_of_people():
     """
     To get the input of how many people are in the group
     @rtype: object
+    @return: number_of_people
     """
     print("Hi there, for this simulation, we need to know how many people are in the room")
 
