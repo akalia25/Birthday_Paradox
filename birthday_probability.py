@@ -6,13 +6,6 @@ Created on Mon Nov 11 23:37:01 2019
 @author: adityakalia
 """
 
-def factorial(value,number_of_people):
-    fact = 1
-    for i in range(1,number_of_people+1):
-        fact = value * fact
-        value = value - 1
-    return fact
-
 
 def number_of_people():
     print("Hi there, for this simulation, we need to know how many people are in the room")
@@ -27,6 +20,14 @@ def number_of_people():
     return number_of_people
 
 
+def factorial(value, number_of_people):
+    fact = 1
+    for i in range(1, number_of_people + 1):
+        fact = value * fact
+        value = value - 1
+    return fact
+
+
 def all_same_birthdays(number_of_people):
     """
 This function determines the probability that all people in the room share\
@@ -36,23 +37,33 @@ the exact same birthday
     @return:
     """
     days_in_year = 365
-    prob = ((1/days_in_year)**number_of_people)*100
+    prob = ((1 / days_in_year) ** number_of_people)
     return prob
 
 
 def no_same_birthdays(number_of_people):
     days_in_year = 365
-    prob = 1 - ((1/days_in_year)**number_of_people)*100
+    prob = factorial(days_in_year, number_of_people) /\
+           days_in_year**number_of_people
     return prob
 
 
 def two_same_birthdays(number_of_people):
     days_in_year = 365
-    prob = (1 - factorial(days_in_year)/(days_in_year**number_of_people))*100
+    prob = (1 - factorial(days_in_year,number_of_people) / (days_in_year ** number_of_people))
+    return prob
 
 
 def main():
-    number_of_people = number_of_people()
+    num_people = number_of_people()
+    all_same = all_same_birthdays(num_people)
+    no_same = no_same_birthdays(num_people)
+    two_same = two_same_birthdays(num_people)
+
+    print("\nThe probability you all share the same birthday is {:.10%}".format(all_same))
+    print("\nThe probability that none of you share the same birthday is {:.10%}".format(no_same))
+    print("\nThe probability at least two of you in the group will share a same birthday is  {:.10%}".format(
+        two_same))
 
 
 if __name__ == '__main__':
