@@ -12,7 +12,7 @@ def number_of_people():
 
     while True:
         try:
-            number_of_people = int(input("\n Please enter the number of people in the room.\n"))
+            number_of_people = int(input("\nPlease enter the number of people in the room.\n"))
             break
         except ValueError:
             pass
