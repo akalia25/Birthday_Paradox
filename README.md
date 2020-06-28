@@ -41,5 +41,10 @@ To run this program, simply download the .py file and execute it using python3.
 
 ### Sample exection is shown below:
 
+![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/sample_output_1.png)
+![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/sample_output_2.png)
+![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/sample_output_3.png)
 
 
+## Closing Remarks
+Hope you enjoyed this neat little tool that helps with determine different probabilities based on the group size, maybe use this at your next party and see what how many of you share the same birthday :D :P 
