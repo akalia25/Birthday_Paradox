@@ -40,9 +40,16 @@ Effort has been made to not use any external libraries, so that this program wil
 To run this program, simply download the .py file and execute it using python3.
 
 ### Sample exection is shown below:
+Sample1
 
 ![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/sample_output_1.png)
+
+Sample2
+
 ![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/sample_output_2.png)
+
+Sample3
+
 ![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/sample_output_3.png)
 
 
