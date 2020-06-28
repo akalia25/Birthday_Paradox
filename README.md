@@ -2,6 +2,10 @@
 
 ## About
 The birthday paradox has always been an interesting probability problem that defines what is the probability in a group of n people that two individuals will share the same birthday. What I wanted to do was extend this probability problem and cover additional scenarios.
+
+To read about the birthday paradox here is wiki page with more information:
+https://en.wikipedia.org/wiki/Birthday_problem
+
 As I worked through this birthday paradox probability problem, I discovered some of these probabilities are not as straightforward as someone may be lead to believe and how important it is to consider all possible groupings! -- The scenarios covered in this in program include:
 
 ### 1. The probability that in a group ALL individuals share the same birthday.
