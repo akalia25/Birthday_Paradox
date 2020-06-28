@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Birthday_problem
 
 As I worked through this birthday paradox probability problem, I discovered some of these probabilities are not as straightforward as someone may be lead to believe and how important it is to consider all possible groupings! -- The scenarios covered in this in program include:
 
-### 1. The probability that in a group ALL individuals share the same birthday.
+## 1. The probability that in a group ALL individuals share the same birthday.
 To formulate this, the probability function is as follows:
 
 ![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/all_same.png)
@@ -16,7 +16,7 @@ To formulate this, the probability function is as follows:
 To get this formulation we take the probability that all of you share the same birthday (1/365) and raise it to the exponent of the number of people in the group.
 
 
-### 2. The probability that NO ONE in the group share the same birthday.
+## 2. The probability that NO ONE in the group share the same birthday.
 To formulate this, the probability function is as follows:
 
 ![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/no_same_bday.png)
@@ -24,7 +24,7 @@ To formulate this, the probability function is as follows:
 To get this formulation we take the probability that everyone in the group is born on a different day. The first person has 365/365 days to choose from, the second has 364/365, the third has 363/365 and so on and so forth until all n individuals have a different birthday.
 
 
-### 3. The probability that any TWO people(does not neccsarily have to be you) will share a birthday in the group.
+## 3. The probability that any TWO people(does not neccsarily have to be you) will share a birthday in the group.
 To formulate this, the probability function is as follows:
 
 ![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/one_other_bday.png)
@@ -32,7 +32,7 @@ To formulate this, the probability function is as follows:
 To get this formulation, we take the compliment of probability that was calculated above, that no one shares a birthday. To get the compliment we do 1 subtract probability that everyone in the group is born on a different day.
 
 
-### 4. The probability that YOU as an individual share the same birthday as someone in the group.
+## 4. The probability that YOU as an individual share the same birthday as someone in the group.
 To formulate this, the probability function is as follows:
 
 ![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/one_other_bday.png)
