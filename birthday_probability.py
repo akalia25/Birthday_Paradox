@@ -68,7 +68,7 @@ def main():
 
     print("\nThe probability you all share the same birthday is {:.10%}".format(all_same))
     print("\nThe probability that none of you share the same birthday is {:.10%}".format(no_same))
-    print("\nThe probability that you share the same birthday with someone is {:.10%}".format(one_same))
+    print("\nThe probability that you as an individual share the same birthday with someone is {:.10%}".format(one_same))
     print("\nThe probability at least two of you in the group will share a same birthday is  {:.10%}".format(
         two_same))
 
