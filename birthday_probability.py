@@ -8,6 +8,10 @@ Created on Mon Nov 11 23:37:01 2019
 
 
 def number_of_people():
+    """
+    To get the input of how many people are in the group
+    @rtype: object
+    """
     print("Hi there, for this simulation, we need to know how many people are in the room")
 
     while True:
@@ -21,6 +25,13 @@ def number_of_people():
 
 
 def factorial(value, number_of_people):
+    """
+    This function takes in the value to run the factorial on and the
+    limit of the factorial
+    @rtype: object
+    @param value, number_of_people:
+    @return: fact
+    """
     fact = 1
     for i in range(1, number_of_people + 1):
         fact = value * fact
@@ -30,11 +41,11 @@ def factorial(value, number_of_people):
 
 def all_same_birthdays(number_of_people):
     """
-This function determines the probability that all people in the room share\
-the exact same birthday
-    @return:
+    This function determines the probability that all people in the room share\
+    the exact same birthday
+    @rtype: object
     @param number_of_people:
-    @return:
+    @return: prob
     """
     days_in_year = 365
     prob = ((1 / days_in_year) ** number_of_people)
@@ -42,12 +53,26 @@ the exact same birthday
 
 
 def one_birthday_as_you(number_of_people):
+    """
+    This function calculates the probability of how many people in the group
+    share the same birthday as you, and only you
+    @rtype: object
+    @param number_of_people:
+    @return: prob
+    """
     days_in_year = 365
     prob = 1 - ((364 / days_in_year) ** number_of_people)
     return prob
 
 
 def no_same_birthdays(number_of_people):
+    """
+    This function calculates the probability that no one shares the same
+    birthday in the group
+    @rtype: object
+    @param number_of_people:
+    @return: prob
+    """
     days_in_year = 365
     prob = factorial(days_in_year, number_of_people) / \
            days_in_year ** number_of_people
@@ -55,6 +80,13 @@ def no_same_birthdays(number_of_people):
 
 
 def two_same_birthdays(number_of_people):
+    """
+    This function calculates the probability that at least two people in the group
+    share the same birthday, the original birthday paradox question.
+    @rtype: object
+    @param number_of_people:
+    @return: prob
+    """
     days_in_year = 365
     prob = (1 - factorial(days_in_year, number_of_people) / (days_in_year ** number_of_people))
     return prob
