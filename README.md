@@ -1,7 +1,7 @@
 # The Birthday Paradox
 
 ## About
-The birthday paradox has always been an interesting probability problem that defines what is the probability in a group of n people that two individuals will share the same birthday. What I wanted to do was extend this probability problem and cover additional scenarios.
+The birthday paradox has always been an interesting probability problem that defines what is the probability in a group of n people that two individuals will share the same birthday. What I wanted to do was **automate calculating this probability problem and cover additional scenarios that people would be interested in knowing.**
 
 To read about the birthday paradox here is wiki page with more information:
 https://en.wikipedia.org/wiki/Birthday_problem
