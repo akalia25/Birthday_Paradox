@@ -27,7 +27,7 @@ To get this formulation we take the probability that everyone in the group is bo
 ## 3. The probability that any TWO people(does not neccsarily have to be you) will share a birthday in the group.
 To formulate this, the probability function is as follows:
 
-!https://github.com/akalia25/Birthday_Paradox/blob/master/Screenshots/atleast_one_bday.png)
+![alt text](!https://github.com/akalia25/Birthday_Paradox/blob/master/Screenshots/atleast_one_bday.png)
 
 To get this formulation, we take the compliment of probability that was calculated above, that no one shares a birthday. To get the compliment we do 1 subtract probability that everyone in the group is born on a different day.
 
