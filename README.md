@@ -1,7 +1,7 @@
 # The Birthday Paradox
 
 ## About
-The birthday paradox has always been an interesting probability problem that defines what is the probability in a group of n people that two individuals will share the same birthday. What I wanted to do was **automate calculating this probability problem and cover additional scenarios that people would be interested in knowing.**
+The birthday paradox has always been an interesting probability problem that defines what is the probability in a group of n people that two individuals will share the same birthday. What I wanted to do was **automate calculating this probability problem and cover additional scenarios that would be interesting to know.**
 
 To read about the birthday paradox here is wiki page with more information:
 https://en.wikipedia.org/wiki/Birthday_problem
@@ -27,7 +27,7 @@ To get this formulation we take the probability that everyone in the group is bo
 ## 3. The probability that any TWO people(does not neccsarily have to be you) will share a birthday in the group.
 To formulate this, the probability function is as follows:
 
-![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/one_other_bday.png)
+!https://github.com/akalia25/Birthday_Paradox/blob/master/Screenshots/atleast_one_bday.png)
 
 To get this formulation, we take the compliment of probability that was calculated above, that no one shares a birthday. To get the compliment we do 1 subtract probability that everyone in the group is born on a different day.
 
@@ -35,7 +35,7 @@ To get this formulation, we take the compliment of probability that was calculat
 ## 4. The probability that YOU as an individual share the same birthday as someone in the group.
 To formulate this, the probability function is as follows:
 
-![alt text](https://github.com/akalia25/Birthday_Probability/blob/master/Screenshots/one_other_bday.png)
+![alt text](https://github.com/akalia25/Birthday_Paradox/blob/master/Screenshots/one_other_bday.png)
 
 To get this formulation, we take the probability that everyone in the group has a different birthday than you(364/365) raised to the exponent of n number of people in the group. Once we get this probability we take the compliment of this probability to determine the probability that someone shares the same birthday as you. To get the compliment we do 1 subtract the probability that everyone has a different birthday.
 
