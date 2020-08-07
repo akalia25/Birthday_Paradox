@@ -59,4 +59,4 @@ Sample3
 
 
 ## Closing Remarks
-Hope you enjoyed this neat little tool that helps with determine different probabilities based on the group size, maybe use this at your next party and see what how many of you share the same birthday :D :P 
+Hope you enjoyed this neat little tool that helps with determining different probabilities based on the group size, maybe use this at your next party and see how many of you share the same birthday :D :P 
