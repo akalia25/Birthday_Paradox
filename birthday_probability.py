@@ -93,7 +93,7 @@ def two_same_birthdays(number_of_people):
     return prob
 
 
-def main():
+if __name__ == '__main__':
     num_people = number_of_people()
     all_same = all_same_birthdays(num_people)
     one_same_as_you = one_birthday_as_you(num_people)
@@ -106,8 +106,3 @@ def main():
     print("\nThe probability that you as an individual share the same birthday with someone is {:.10%}".format(
         one_same_as_you))
 
-
-if __name__ == '__main__':
-    main()
-
-    
